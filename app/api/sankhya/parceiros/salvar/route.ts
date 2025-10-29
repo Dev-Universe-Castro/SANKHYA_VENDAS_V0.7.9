@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import { salvarParceiro } from '@/lib/sankhya-api';
-import cacheService from '@/lib/cacheService'; // Assumindo que cacheService está disponível aqui
+import cacheService from '@/lib/cache-service'; // Assumindo que cacheService está disponível aqui
 
 export async function POST(request: Request) {
   try {
